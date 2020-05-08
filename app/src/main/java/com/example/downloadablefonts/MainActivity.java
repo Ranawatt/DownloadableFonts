@@ -16,6 +16,7 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Arrays;
 
