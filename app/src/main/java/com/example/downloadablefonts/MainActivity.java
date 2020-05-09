@@ -22,6 +22,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputLayout;
+
 import java.util.Arrays;
 
 import static com.example.downloadablefonts.Constants.ITALIC_DEFAULT;

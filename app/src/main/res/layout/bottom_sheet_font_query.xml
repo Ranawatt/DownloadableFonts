@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:behavior_peekHeight="120dp"
-    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
     app:cardElevation="8dp">
 
     <androidx.core.widget.NestedScrollView
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin_small"
                     android:text="@string/width"
-                    android:textColor="@color/accent"
+                    android:textColor="@color/colorAccent"
                     android:textSize="12sp" />
 
                 <LinearLayout
@@ -117,7 +117,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin_small"
                     android:text="@string/weight"
-                    android:textColor="@color/accent"
+                    android:textColor="@color/colorAccent"
                     android:textSize="12sp" />
 
                 <LinearLayout
@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin_small"
                     android:text="@string/italic"
-                    android:textColor="@color/accent"
+                    android:textColor="@color/colorAccent"
                     android:textSize="12sp" />
 
                 <LinearLayout
