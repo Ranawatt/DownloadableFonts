@@ -2,12 +2,16 @@ package com.example.downloadablefonts;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.collection.ArraySet;
+import androidx.core.provider.FontRequest;
 import androidx.core.provider.FontsContractCompat;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.HandlerThread;
+import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -19,6 +23,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Arrays;
+
+import static com.example.downloadablefonts.Constants.ITALIC_DEFAULT;
+import static com.example.downloadablefonts.Constants.WEIGHT_DEFAULT;
+import static com.example.downloadablefonts.Constants.WEIGHT_MAX;
+import static com.example.downloadablefonts.Constants.WIDTH_DEFAULT;
+import static com.example.downloadablefonts.Constants.WIDTH_MAX;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
